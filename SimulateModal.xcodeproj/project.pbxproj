@@ -14,6 +14,8 @@
 		FABAF0AC21C2EECE002FD627 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FABAF0AA21C2EECE002FD627 /* LaunchScreen.storyboard */; };
 		FABAF0B721C2EECE002FD627 /* SimulateModalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABAF0B621C2EECE002FD627 /* SimulateModalTests.swift */; };
 		FABAF0C221C2EECE002FD627 /* SimulateModalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABAF0C121C2EECE002FD627 /* SimulateModalUITests.swift */; };
+		FABAF0D021C2F6B7002FD627 /* ViewControllerModalItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABAF0CF21C2F6B7002FD627 /* ViewControllerModalItem.swift */; };
+		FABAF0D221C2F72A002FD627 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABAF0D121C2F72A002FD627 /* Item.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		FABAF0BD21C2EECE002FD627 /* SimulateModalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimulateModalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FABAF0C121C2EECE002FD627 /* SimulateModalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimulateModalUITests.swift; sourceTree = "<group>"; };
 		FABAF0C321C2EECE002FD627 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FABAF0CF21C2F6B7002FD627 /* ViewControllerModalItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerModalItem.swift; sourceTree = "<group>"; };
+		FABAF0D121C2F72A002FD627 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				FABAF0A821C2EECE002FD627 /* Assets.xcassets */,
 				FABAF0AA21C2EECE002FD627 /* LaunchScreen.storyboard */,
 				FABAF0AD21C2EECE002FD627 /* Info.plist */,
+				FABAF0CF21C2F6B7002FD627 /* ViewControllerModalItem.swift */,
+				FABAF0D121C2F72A002FD627 /* Item.swift */,
 			);
 			path = SimulateModal;
 			sourceTree = "<group>";
@@ -256,8 +262,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FABAF0D221C2F72A002FD627 /* Item.swift in Sources */,
 				FABAF0A421C2E8C5002FD627 /* ViewController.swift in Sources */,
 				FABAF0A221C2E8C4002FD627 /* AppDelegate.swift in Sources */,
+				FABAF0D021C2F6B7002FD627 /* ViewControllerModalItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
